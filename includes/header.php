@@ -9,17 +9,17 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 </script>
 <table id="maintable" cellspacing="0">
 	<tr>
-		<td id="header" colspan="3" style="color:#FFFFFF;background-color:#000000;">
+		<td id="header" colspan="3" style="color:#FFFFFF;background-color:#fff;">
 			<div style="clear:both; width:100%; height:80px; border-bottom:1px solid #000000;">
 				<div style="float:left">
-					<img src="<?php echo $CLIENT_ROOT; ?>/images/layout/left_logo.png" style="margin:0px 30px;width:300px" />
+					<img src="<?php echo $CLIENT_ROOT; ?>/images/layout/header-small.png" style="margin:0px 0px;width:600px" />
 				</div>
-				<div style="margin-left: 40px; color: #D3D3D3; font-family: 'Mate', serif; letter-spacing: 1px; text-shadow: 0 0 7px rgba(0,0,0,0.5);">
-					<div style="margin-top:20px; font-size:60px; line-height:48px;">
-						Bee Library
+				<div style="margin-left:30px; color: #003660; font-family: 'Mate', serif; letter-spacing: 1px; text-shadow: 0 0 3px rgba(0,0,0,0.5);">
+					
+					<div style="margin-top:10px;font-size:40px; line-height:48px;">
+						UC Santa Barbara Collection Network
 					</div>
 					<div style="margin-top:20px; font-size:20px; font-style: italic">
-						An online resource connecting images, specimen records, and natural history information about bees.
 					</div>
 				</div>
 			</div>
@@ -101,27 +101,20 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 							</li>
 						</ul>
 					</li>
-					<li>
-						<a href="https://www.globalbioticinteractions.org/bigbee" target="_blank">Global Biotic Interactions</a>
-					</li>
-					<li>
-						<a href="http://big-bee.net" target="_blank">Big-Bee News</a>
-					</li>
 
-
-<!--
- Commenting out these menu items - MAJ 29 oct 2021
 
 
 					<li>
 						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" ><?php echo (isset($LANG['H_INVENTORIES'])?$LANG['H_INVENTORIES']:'Species Checklists'); ?></a>
 						<ul>
 							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=1"><?php echo (isset($LANG['H_PROJECT_1'])?$LANG['H_PROJECT_1']:'Project 1'); ?></a>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=2"><?php echo (isset($LANG['H_PROJECT_2'])?$LANG['H_PROJECT_2']:'Project 2'); ?></a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=25"><?php echo (isset($LANG['H_PROJECT_1'])?$LANG['H_PROJECT_1']:'Insects of North Campus Open Space'); ?></a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=33"><?php echo (isset($LANG['H_PROJECT_2'])?$LANG['H_PROJECT_2']:'Santa Cruz Island Bees'); ?></a>
 							</li>
 						</ul>
 					</li>
+					
+<!--					
 					<li>
 						<a href="#" ><?php echo (isset($LANG['H_DYN_LISTS'])?$LANG['H_DYN_LISTS']:'Dynamic Species List'); ?></a>
 						<ul>
@@ -198,9 +191,7 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 
 
 					</li>
-
-end of commented out section --!>
-
+end commented section -->
 				</ul>
 			</div>
 		</td>

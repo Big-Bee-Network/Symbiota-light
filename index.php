@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
 ?>
 <html>
 <head>
-	<title><?php echo $DEFAULT_TITLE; ?> Home</title>
+	<title><?php echo $DEFAULT_TITLE; ?> UCSB</title>
 	<?php
 	$activateJQuery = true;
 	include_once($SERVER_ROOT.'/includes/head.php');
@@ -31,27 +31,26 @@ header("Content-Type: text/html; charset=".$CHARSET);
 	?>
 	<!-- This is inner text! -->
 	<div id="innertext">
-		<h1>Extending Anthophila Research Through Image and Trait Digitization</h1>
+		<div style="padding: 5px 5px;">
+		<h1></h1>
+	</div>
 		<div id="quicksearchdiv">
-
 			<!-- -------------------------QUICK SEARCH SETTINGS--------------------------------------- -->
 			<form name="quicksearch" id="quicksearch" action="<?php echo $CLIENT_ROOT; ?>/taxa/index.php" method="get" onsubmit="return verifyQuickSearch(this);">
 				<div id="quicksearchtext" ><?php echo (isset($LANG['QSEARCH_SEARCH'])?$LANG['QSEARCH_SEARCH']:'Taxon Search'); ?></div>
 				<input id="taxa" type="text" name="taxon" />
 				<button name="formsubmit"  id="quicksearchbutton" type="submit" value="Search Terms"><?php echo (isset($LANG['QSEARCH_SEARCH_BUTTON'])?$LANG['QSEARCH_SEARCH_BUTTON']:'Search'); ?></button>
 			</form>
-	</div>
-		<div style="float:left"><img src="images/layout/image-types_v3.png" style="width:350px;margin:0px 10px" /></div>
+		</div>
+		<div style="padding: 50px 50px;">
+					<div style="float:left"><img src="images/layout/campus-tower.jpg" style="width:200px;margin:0px 10px" /></div>
 	<p>
- The Bee Library is an online repository of bee image, trait, and specimen data. The portal has a worldwide scope and may include other taxa that are not bees but interact with bees (i.e., bee parasites). The contributors to this resource are varied and include the many taxonomists, data managers, and bee ecologists whose work it is to determine bee specimens and help us understand bee evolution and ecology. The Bee Library recommends citing the repository for a bee specimen, the specimen catalog number, and who determined the specimen in any publication that references data from this portal. Images are free for reuse, but please cite the institution that provided the image.
+			The UC Santa Barbara Collection Network Natural History Data Portal serves as a gateway for natural history data resources for the University of California Santa Barbara, <a href="https://www.nrs.ucsb.edu">UCSB Natural Reserve System</a>, and <a href="https://www.ccber.ucsb.edu">UCSB Cheadle Center for Biodiversity and Ecological Restoration</a>. Through a common web interface, we offer tools to locate, access, and work with a variety of natural history data including specimens found in collections and observations from citizen science and research. This portal is more than just a website - it is a suite of data access technologies and a distributed network of collections across UCSB or outside collections that have holdings from UCSB and UCSB NRS locations.
 	</p>
-	<p>
-These data are currently growing due to the work of the <strong>Extending Anthophila Research Through Image and Trait Digitization</strong> National Science Foundation Project (<a href="http://big-bee.net">Big-Bee</a>). Big-Bee is a collaboration of 13 universities, research stations, natural history collections, and agencies who aim to share images, label, and functional trait (i.e., flight timing, host plant, body size) data for over 5000 bee species.
-	</p>
-	<p>
-	<p>
-<strong>Cite the Big-Bee project: </strong>Seltmann KC, Allen J, Brown BV, Carper A, Engel MS, Franz N, Gilbert E, Grinter C, Gonzalez VH, Horsley P, Lee S, Maier C, Miko I, Morris P, Oboyski P, Pierce NE, Poelen J, Scott VL, Smith M, Talamas EJ, Tsutsui ND, Tucker E (2021) Announcing Big-Bee: An initiative to promote understanding of bees through image and trait digitization. Biodiversity Information Science and Standards 5: e74037. https://doi.org/10.3897/biss.5.74037
-	</p>
+		<p>
+The contributors to this resource are varied and include the many taxonomists, data managers, and ecologists whose work it is to help us understand our natural world. Included here is information aggregated from many collection and observation projects, not just specimens from the UCSB Natural History Collections. Because of the variety of data sources, we recommend citing the natural history collection for specimens, the specimen catalog number, and who determined the specimen in any publication that references data from this portal. Images are free for reuse, but please cite the institution that provided the image.
+	   	</p>
+		</div>
 	</div>
 	<?php
 	include($SERVER_ROOT.'/includes/footer.php');
