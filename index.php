@@ -43,7 +43,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
 			</form>
 		</div>
 		<div style="padding: 50px 50px;">
-					<div style="float:left"><img src="images/layout/campus-tower.jpg" style="width:200px;margin:0px 10px" /></div>
+					<div style="float:left"><img src="images/layout/campus-tower.png" style="width:450px;margin:0px 10px" /></div>
 	<p>
 			The UC Santa Barbara Collection Network Natural History Data Portal serves as a gateway for natural history data resources for the University of California Santa Barbara, <a href="https://www.nrs.ucsb.edu">UCSB Natural Reserve System</a>, and <a href="https://www.ccber.ucsb.edu">UCSB Cheadle Center for Biodiversity and Ecological Restoration</a>. Through a common web interface, we offer tools to locate, access, and work with a variety of natural history data including specimens found in collections and observations from citizen science and research. This portal is more than just a website - it is a suite of data access technologies and a distributed network of collections across UCSB or outside collections that have holdings from UCSB and UCSB NRS locations.
 	</p>
