@@ -101,18 +101,58 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 							</li>
 						</ul>
 					</li>
-
-
-
-					<li>
-						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" ><?php echo (isset($LANG['H_INVENTORIES'])?$LANG['H_INVENTORIES']:'Species Checklists'); ?></a>
-						<ul>
-							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=25"><?php echo (isset($LANG['H_PROJECT_1'])?$LANG['H_PROJECT_1']:'Insects of North Campus Open Space'); ?></a>
-								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=33"><?php echo (isset($LANG['H_PROJECT_2'])?$LANG['H_PROJECT_2']:'Santa Cruz Island Bees'); ?></a>
-							</li>
-						</ul>
-					</li>
+				<li>
+					<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" >Insect Checklists</a>
+					<ul>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=10" >Insects of UCSB and Nearby</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=25" >Insects of North Campus Open Space</a>
+						</li>
+						<li>
+							<a href="https://library.big-bee.net/portal/projects/index.php?pid=2" >Bees of UCSB and Nearby</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=28" >Ichneumonoidea of UCSB and Nearby</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=11" >Ants of Santa Barbara County</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=7" >Ophioninae of Coastal California</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" >UCSB Natural Reserve Checklists</a>
+					<ul>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=27" >Santa Cruz Island Reserve Plants</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=24" >Santa Cruz Island Reserve Lichens</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=23" >Santa Cruz Island Reserve Fungi</a>
+						</li>
+						<li>
+							<a href="https://library.big-bee.net/portal/checklists/checklist.php?clid=3" >Santa Cruz Island Bees</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=61" >Coal Oil Point Reserve Plant Voucher Checklist</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=53" >Coal Oil Point Reserve Plant Observation Checklist</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=57" >Coal Oil Point Reserve Arthropod Voucher Checklist</a>
+						</li>
+						<li>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=56" >Coal Oil Point Reserve Arthropod Observation Checklist</a>
+						</li>
+					</ul>
+				</li>
 					
 <!--					
 					<li>
@@ -166,7 +206,7 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/dynamicmap.php?interface=key&taxa=Reptilia" ><?php echo (isset($LANG['H_REPTILIA'])?$LANG['H_REPTILIA']:'Reptiles'); ?></a>
 							</li>
 						</ul>
-					</li>
+					</li> 
 					<li>
 						<a href="#" ><?php echo (isset($LANG['H_MORE_INFO'])?$LANG['H_MORE_INFO']:'Additional Info'); ?></a>
 						<ul>
