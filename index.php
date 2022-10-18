@@ -54,6 +54,7 @@ The contributors to this resource are varied and include the many taxonomists, d
 	</div>
 	<?php
 	include($SERVER_ROOT.'/includes/footer.php');
+        print(".");
 	?>
 </body>
 </html>

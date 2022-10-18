@@ -108,8 +108,8 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" ><?php echo (isset($LANG['H_INVENTORIES'])?$LANG['H_INVENTORIES']:'Species Checklists'); ?></a>
 						<ul>
 							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=25"><?php echo (isset($LANG['H_PROJECT_1'])?$LANG['H_PROJECT_1']:'Insects of North Campus Open Space'); ?></a>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=33"><?php echo (isset($LANG['H_PROJECT_2'])?$LANG['H_PROJECT_2']:'Santa Cruz Island Bees'); ?></a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=25"><?php echo (isset($LANG['H_PROJECT_1'])?$LANG['H_PROJECT_1']:'Insects of North Campus Open Space'); ?></a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=33"><?php echo (isset($LANG['H_PROJECT_2'])?$LANG['H_PROJECT_2']:'Santa Cruz Island Bees'); ?></a>
 							</li>
 						</ul>
 					</li>
