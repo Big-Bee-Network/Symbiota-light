@@ -152,13 +152,13 @@ else include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=56" >Coal Oil Point Reserve Arthropod Observation Checklist</a>
 						</li>
 						<li>
-							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=56" >Coal Oil Point Reserve Reptiles and Amphibians Observation Checklist</a>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=2252" >Coal Oil Point Reserve Reptiles and Amphibians Observation Checklist</a>
 						</li>
 						<li>
-							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=56" >Coal Oil Point Reserve Mammal Observation Checklist</a>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=60" >Coal Oil Point Reserve Mammal Observation Checklist</a>
 						</li>
 						<li>
-							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=56" >Coal Oil Point Reserve Fungi Observation Checklist</a>
+							<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?cl=2584" >Coal Oil Point Reserve Fungi Observation Checklist</a>
 						</li>
 					</ul>
 				</li>
