@@ -8,7 +8,7 @@ class OccurrenceSearchSupport {
 
 	public function __construct($conn){
 		$this->conn = $conn;
-	}
+ 	}
 
 	public function __destruct(){
 	}
@@ -17,13 +17,13 @@ class OccurrenceSearchSupport {
 		if(!preg_match('/^[,\d]+$/',$catIdStr)) $catIdStr = '';
 		//Set collection array
 		/*
-		 $collIdArr = array();
-		 if($this->collidStr){
-		 $cArr = explode(';',$this->collidStr);
-		 $collIdArr = explode(',',$cArr[0]);
-		 if(isset($cArr[1])) $collIdArr = $cArr[1];
-		 }
-		 */
+		$collIdArr = array();
+		if($this->collidStr){
+			$cArr = explode(';',$this->collidStr);
+			$collIdArr = explode(',',$cArr[0]);
+			if(isset($cArr[1])) $collIdArr = $cArr[1];
+		}
+		*/
 		//Set collections
 		$sql = 'SELECT c.collid, c.institutioncode, c.collectioncode, c.collectionname, c.icon, c.colltype, ccl.ccpk, '.
 			'cat.category, cat.icon AS caticon, cat.acronym '.
@@ -389,3 +389,4 @@ class OccurrenceSearchSupport {
 	}
 }
 ?>
+
