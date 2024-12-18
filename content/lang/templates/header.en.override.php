@@ -9,6 +9,11 @@
  e.g. override: $LANG['H_COLLECTIONS'] = 'Search Lichen Collections';
 */
 
-
+$LANG['H_TAXONOMY_DISPLAY'] = 'Taxonomy Display';
+$LANG['H_ALL_PUBLIC_CHECKLISTS'] = 'All Public Checklists';
+$LANG['H_UCSB_NAT_RESERVES'] = 'UCSB Natural Reserve System';
+$LANG['H_UCSB_CAMPUS'] = 'UC Santa Barbara Campus';
+$LANG['H_GLOBI'] = 'Global Biotic Interactions';
+$LANG['H_BIG_BEE_NEWS'] = 'Big Bee News';
 
 ?>
