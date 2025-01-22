@@ -41,6 +41,10 @@ header("Content-Type: text/html; charset=".$CHARSET);
 					echo 'Accessed on '.date('F d').'. ';
 					?>
 				</div>
+				
+				<div style="margin:10px;"><strong>Cite the Big-Bee project: </strong>Seltmann KC, Allen J, Brown BV, Carper A, Engel MS, Franz N, Gilbert E, Grinter C, Gonzalez VH, Horsley P, Lee S, Maier C, Miko I, Morris P, Oboyski P, Pierce NE, Poelen J, Scott VL, Smith M, Talamas EJ, Tsutsui ND, Tucker E (2021). Announcing Big-Bee: An initiative to promote understanding of bees through image and trait digitization. Biodiversity Information Science and Standards 5: e74037.
+				<a href="https://doi.org/10.3897/biss.5.74037" target="_blank">https://doi.org/10.3897/biss.5.74037</a>
+				</div>
 
 				<div style="font-weight:bold;margin-top:10px;">
 					Usage of occurrence data from specific institutions:
