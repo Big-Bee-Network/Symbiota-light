@@ -10,9 +10,13 @@
 
 //$CUSTOM_CSS_PATH = '/css/symb/custom';
 ?>
-<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+<!-- Responsive viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="<?php echo $CLIENT_ROOT; ?>/css/base.css?ver=1" type="text/css" rel="stylesheet">
-<link href="<?php echo $CLIENT_ROOT; ?>/css/symb/main.css?ver=1" type="text/css" rel="stylesheet">
+<!-- Symbiota styles -->
+<link href="<?= $CSS_BASE_PATH ?>/symbiota/header.css?ver=<?= $CSS_VERSION ?>" type="text/css" rel="stylesheet">
+<link href="<?= $CSS_BASE_PATH ?>/symbiota/footer.css?ver=<?= $CSS_VERSION ?>" type="text/css" rel="stylesheet">
+<link href="<?= $CSS_BASE_PATH ?>/symbiota/main.css?ver=<?= $CSS_VERSION ?>" type="text/css" rel="stylesheet">
+<link href="<?= $CSS_BASE_PATH ?>/symbiota/customizations.css?ver=<?= $CSS_VERSION ?>" type="text/css" rel="stylesheet">
 
-<script src="<?php echo $CLIENT_ROOT; ?>/js/symb/lang.js" type="text/javascript"></script>
+<script src="<?= $CLIENT_ROOT ?>/js/symb/lang.js" type="text/javascript"></script>
