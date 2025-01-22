@@ -45,10 +45,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
 	</div>
 		<div style="float:left"><img src="images/layout/image-types_v3.jpg" style="width:350px;margin:0px 10px" /></div>
 	<p>
-		The Bee Library is an online repository of bee image, trait, and specimen data. The portal has a worldwide scope and may include other taxa that are not bees but interact with
-		bees (i.e., bee parasites). The contributors to this resource are varied and include the many taxonomists, data managers, and bee ecologists whose work it is to determine bee
-		specimens and help us understand bee evolution and ecology. The Bee Library recommends citing the repository for a bee specimen, the specimen catalog number, and who
-		determined the specimen in any publication that references data from this portal. Images are free for reuse, but please cite the institution that provided the image.
+		The Bee Library is an online repository of bee image, trait, and specimen data. The portal has a worldwide scope and may include other taxa that are not bees but interact with bees (i.e., bee parasites). The contributors to this resource are varied and include the many taxonomists, data managers, and bee ecologists whose work it is to determine bee specimens and help us understand bee evolution and ecology. The Bee Library recommends citing the repository for a bee specimen, the specimen catalog number, and who determined the specimen in any publication that references data from this portal. Images are free for reuse, but please cite the institution that provided the image. See our <a href="https://library.big-bee.net/portal/includes/usagepolicy.php">Data Use Policy</a> for more information.
 	</p>
 	<p>
 		These data are currently growing due to the work of the <strong>Extending Anthophila Research Through Image and Trait Digitization</strong>
@@ -56,11 +53,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
 		natural history collections, and agencies who aim to share images, label, and functional trait (i.e., flight timing, host plant, body size) data for over 5000 bee species.
 	</p>
 	<p>
-	<p>
-		<strong>Cite the Big-Bee project: </strong>Seltmann KC, Allen J, Brown BV, Carper A, Engel MS, Franz N, Gilbert E, Grinter C, Gonzalez VH, Horsley P, Lee S, Maier C, Miko I,
-		Morris P, Oboyski P, Pierce NE, Poelen J, Scott VL, Smith M, Talamas EJ, Tsutsui ND, Tucker E (2021)
-		Announcing Big-Bee: An initiative to promote understanding of bees through image and trait digitization. Biodiversity Information Science and Standards 5: e74037.
-		<a href="https://doi.org/10.3897/biss.5.74037" target="_blank">https://doi.org/10.3897/biss.5.74037</a>
+		<strong>Cite the Big-Bee project: </strong>Seltmann KC, Allen J, Brown BV, Carper A, Engel MS, Franz N, Gilbert E, Grinter C, Gonzalez VH, Horsley P, Lee S, Maier C, Miko I, Morris P, Oboyski P, Pierce NE, Poelen J, Scott VL, Smith M, Talamas EJ, Tsutsui ND, Tucker E (2021). Announcing Big-Bee: An initiative to promote understanding of bees through image and trait digitization. Biodiversity Information Science and Standards 5: e74037. <a href="https://doi.org/10.3897/biss.5.74037" target="_blank">https://doi.org/10.3897/biss.5.74037</a>
 	</p>
 	</div>
 	<?php
