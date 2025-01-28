@@ -15,5 +15,6 @@ $LANG['H_UCSB_NAT_RESERVES'] = 'UCSB Natural Reserve System';
 $LANG['H_UCSB_CAMPUS'] = 'UC Santa Barbara Campus';
 $LANG['H_GLOBI'] = 'Global Biotic Interactions';
 $LANG['H_BIG_BEE_NEWS'] = 'Big Bee News';
+$LANG['H_CLASSIC_SEARCH'] = 'Classic Search';
 
 ?>
