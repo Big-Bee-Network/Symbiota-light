@@ -16,4 +16,6 @@ $LANG['HIDE_CAPTION'] = 'HIDE CAPTION';
 $LANG['SHOW_CAPTION'] = 'SHOW CAPTION';
 $LANG['IMAGE_BY'] = 'Image by';
 $LANG['COURTESY_OF'] = 'Courtesy of';
+
+$LANG['INDEX_H1'] = 'Extending Anthophila Research Through Image and Trait Digitization';
 ?>
