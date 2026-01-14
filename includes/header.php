@@ -123,13 +123,9 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
                                                         </li>
                                                 </ul>
 					</li>
-                                        <li>
-                                                <a href="https://www.globalbioticinteractions.org/bigbee/">
-                                                        <?= $LANG['H_GLOBI'] ?>
-                                                </a>
-                                        </li>
+
 					<li>
-						<a href="https://big-bee.net">
+						<a href="https://big-bee.ccber.ucsb.edu">
 							<?= $LANG['H_BIG_BEE_NEWS'] ?>
 						</a>
 					</li>
